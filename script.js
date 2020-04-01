@@ -4,9 +4,9 @@ getcanvas.width = 1000
 getcanvas.height = 1000
 var v1
 var v2
-var digit = 3
+var digit = 6
 var col = 0
-const timestep =100
+const timestep =100000
 class cuadrado {
     constructor(x, y, w, h, s, c, m) {
         this.x = x
