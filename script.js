@@ -70,7 +70,7 @@ class cuadrado {
 
 
 //new box
-const m1 = Math.pow(100, digit - 1)
+const m1 = Math.pow(10000, digit - 1)
 const box1 = new cuadrado(200, 0, 50, 50, 5/timestep, 'black', m1);
 const box2 = new cuadrado(900, 0, 50, 50, 0, 'purple', 1);
 
